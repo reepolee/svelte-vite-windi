@@ -5,7 +5,7 @@ This template should help get you started developing with Svelte in Vite, styled
 ## Setup
 
 ```bash
-npm degit reepolee/svelte-vite-windi#main svelte-app
+npx degit reepolee/svelte-vite-windi#main svelte-app
 cd svelte-app
 npm i
 npm run dev -- --open
@@ -13,8 +13,9 @@ npm run dev -- --open
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/)
-[Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+[VSCode](https://code.visualstudio.com/)  
+[Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)  
+[WindiCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
 
 ## Credits
 
