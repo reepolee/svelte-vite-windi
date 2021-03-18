@@ -51,4 +51,5 @@ module.exports = {
 
 [Svelte](https://svelte.dev)  
 [Vite](https://vitejs.dev)  
-[WindiCSS](https://windicss.org/)
+[WindiCSS](https://windicss.org/)  
+[SVG Logos](https://github.com/gilbarbara/logos)
