@@ -1,4 +1,7 @@
 footer {
   background: #ededed;
+
+  /* this is not getting compiled by Windi */
   @apply bg-blue-500;
+  /* this is not getting compiled by Windi */
 }
