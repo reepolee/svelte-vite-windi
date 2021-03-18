@@ -10,6 +10,7 @@ export default defineConfig({
         windi.preprocess({
           config: "windi.config.js",
           compile: false,
+          mode: production ?  "prod" : "dev" 
           // prefix: "windi-",
           // verbose: true,
           // silent: false,
