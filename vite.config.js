@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import svelte from "@svitejs/vite-plugin-svelte";
 import windi from "svelte-windicss-preprocess";
-
 const production = process.env.NODE_ENV === "production";
 
 export default defineConfig({
@@ -9,8 +8,12 @@ export default defineConfig({
     svelte({
       preprocess: [
         windi.preprocess({
+          config: "windi.config.js",
           compile: false,
-          prefix: "windi-",
+          // prefix: "windi-",
+          // verbose: true,
+          // silent: false,
+          // debug: true,
         }),
       ],
       emitCss: true,

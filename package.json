@@ -2,7 +2,7 @@
   "name": "svelte-vite-windi",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "set NODE_ENV=development&&vite --clearScreen false",
     "build": "vite build",
     "serve": "vite preview"
   },
