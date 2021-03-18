@@ -1,0 +1,4 @@
+footer {
+  background: #ededed;
+  @apply bg-blue-500;
+}

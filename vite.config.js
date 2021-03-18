@@ -1,3 +1,4 @@
+import { resolve } from 'path';
 import { defineConfig} from "vite";
 import svelte from "@svitejs/vite-plugin-svelte";
 import windi from "svelte-windicss-preprocess";
@@ -5,7 +6,13 @@ import windi from "svelte-windicss-preprocess";
 export default defineConfig(({ command, mode }) => {
   const production = mode === "production";
   return {
-    plugins: [
+    resolve: {
+      alias: {
+        $components: resolve('src/components'),
+        $assets: resolve('src/assets')
+      }
+    },
+      plugins: [
       svelte({
         preprocess: [
           windi.preprocess({

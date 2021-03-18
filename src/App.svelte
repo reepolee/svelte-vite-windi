@@ -1,10 +1,10 @@
 <script>
-    import svelteLogo from "./assets/svelte.svg"
-    import viteLogo from "./assets/vite.svg"
-    import windiLogo from "./assets/windi.svg"
-    import Footer from "./components/Footer.svelte"
-    import TwitterIcon from "./components/TwitterIcon.svelte"
-    import GithubIcon from "./components/GithubIcon.svelte"
+    import svelteLogo from "$assets/svelte.svg"
+    import viteLogo from "$assets/vite.svg"
+    import windiLogo from "$assets/windi.svg"
+    import Footer from "$components/Footer.svelte"
+    import TwitterIcon from "$components/TwitterIcon.svelte"
+    import GithubIcon from "$components/GithubIcon.svelte"
 </script>
 
 <main class="flex flex-col apply min-h-screen text-gray-600">

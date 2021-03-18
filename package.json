@@ -2,7 +2,7 @@
   "name": "svelte-vite-windi",
   "license": "MIT",
   "author": "Ales Vaupotic <ales@reepolee.com>",
-  "homepage" : "https://github.com/reepolee/svelte-vite-windi",
+  "homepage": "https://github.com/reepolee/svelte-vite-windi",
   "description": "Svelte + Vite + Windi Starter template",
   "version": "1.0.2",
   "scripts": {
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@svitejs/vite-plugin-svelte": "^0.11.1",
+    "path": "^0.12.7",
     "svelte": "^3.35.0",
     "svelte-windicss-preprocess": "^3.0.2",
     "vite": "^2.1.2"
