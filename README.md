@@ -1,6 +1,6 @@
 # Svelte + Vite + Windi
 
-This template should help get you started developing with Svelte in Vite, styled by WindiCSS.
+This template should help you get started developing with Svelte in Vite, styled by WindiCSS.
 
 ![Svelte Vite Windi](https://raw.githubusercontent.com/reepolee/svelte-vite-windi/main/svelte-vite-windi.jpg)
 
