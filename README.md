@@ -15,7 +15,7 @@ npm run dev -- --open
 
 ## Windi config
 
-Check out the extended colors in `windi.config.js`:
+Check out the extended colors in `windi.config.cjs`:
 
 ```js
 module.exports = {
