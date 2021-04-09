@@ -4,7 +4,7 @@
   "author": "Ales Vaupotic <ales@reepolee.com>",
   "homepage": "https://github.com/reepolee/svelte-vite-windi",
   "description": "Svelte + Vite + Windi Starter template",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
