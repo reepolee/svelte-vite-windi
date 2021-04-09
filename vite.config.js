@@ -15,7 +15,6 @@ export default defineConfig(({ command, mode }) => {
     plugins: [
       WindiCSS(),
       svelte({
-        emitCss: true,
         hot: !production,
       }),
     ],
