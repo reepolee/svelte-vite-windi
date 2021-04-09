@@ -1,7 +1,7 @@
 import { resolve } from "path";
 import { defineConfig } from "vite";
 import svelte from "@sveltejs/vite-plugin-svelte";
-import WindiCSS from "vite-plugin-windicss";
+import windi from "vite-plugin-windicss";
 
 export default defineConfig(({ command, mode }) => {
   const production = mode === "production";
@@ -13,7 +13,7 @@ export default defineConfig(({ command, mode }) => {
       },
     },
     plugins: [
-      WindiCSS(),
+      windi(),
       svelte({
         hot: !production,
       }),
