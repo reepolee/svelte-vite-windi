@@ -32,8 +32,12 @@
   </Footer>
 </main>
 
-<style global>
+<style global lang="postcss">
   @import "style.css";
+
+  :global(footer) {
+    @apply bg-teal-500;
+  }
 
   h5 {
     @apply text-center text-4xl;
