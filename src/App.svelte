@@ -15,7 +15,7 @@
         <img src={viteLogo} alt="Vite Logo" />
         <img src={windiLogo} alt="WindiCSS Logo" />
       </div>
-      <h5 class="pt-12">
+      <h5 class="pt-12           font-bold">
         <span class="text-svelte-500"> Svelte</span>
         +
         <span class="text-vite-500"> Vite</span>
@@ -33,8 +33,6 @@
 </main>
 
 <style global lang="postcss">
-  @import "style.css";
-
   :global(footer) {
     @apply bg-teal-500;
   }
